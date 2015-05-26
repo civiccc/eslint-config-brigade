@@ -1,0 +1,23 @@
+{
+  "name": "eslint-config-brigade",
+  "version": "1.0.0",
+  "description": "Brigade's ESLint configuration",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brigade/eslint-config-brigade.git"
+  },
+  "keywords": [
+    "eslint",
+    "config"
+  ],
+  "author": "Joe Lencioni",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brigade/eslint-config-brigade/issues"
+  },
+  "homepage": "https://github.com/brigade/eslint-config-brigade#readme"
+}
