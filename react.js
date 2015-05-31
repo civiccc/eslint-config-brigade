@@ -10,10 +10,10 @@ module.exports = {
   },
 
   'rules': {
-    'react/jsx-boolean-value': 2,
     'react/display-name': 0,
-    'react/jsx-quotes': [2, 'single', 'avoid-escape'],
+    'react/jsx-boolean-value': 2,
     'react/jsx-no-undef': 2,
+    'react/jsx-quotes': [2, 'single', 'avoid-escape'],
     'react/jsx-uses-react': 1,
     'react/jsx-uses-vars': 1,
     'react/no-did-mount-set-state': 1,
