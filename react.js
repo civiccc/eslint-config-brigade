@@ -19,6 +19,7 @@ module.exports = {
     'react/no-did-mount-set-state': 1,
     'react/no-did-update-set-state': 1,
     'react/no-multi-comp': 1,
+    'react/no-unknown-property': 2,
     'react/prop-types': 2,
     'react/react-in-jsx-scope': 1,
     'react/self-closing-comp': 2,
