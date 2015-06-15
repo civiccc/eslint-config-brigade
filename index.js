@@ -21,6 +21,7 @@ module.exports = {
     'max-params': [1, 4],
     'no-bitwise': 2,
     'no-comma-dangle': 0,
+    'no-console': 2,
     'no-eq-null': 2,
     'no-floating-decimal': 2,
     'no-lonely-if': 2,
