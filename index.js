@@ -53,7 +53,6 @@ module.exports = {
     'space-before-blocks': [2, 'always'],
     'space-before-function-paren': [2, 'never'],
     'space-in-parens': [2, 'never'],
-    'space-unary-ops': 1,
     'spaced-line-comment': [2, 'always'],
     'strict': [2, 'never'],
     'use-isnan': 2,
