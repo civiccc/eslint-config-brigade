@@ -16,7 +16,7 @@ module.exports = {
     'react/jsx-quotes': [2, 'single', 'avoid-escape'],
     'react/jsx-uses-react': 1,
     'react/jsx-uses-vars': 1,
-    'react/no-did-mount-set-state': 1,
+    'react/no-did-mount-set-state': [1, 'allow-in-func'],
     'react/no-did-update-set-state': 1,
     'react/no-multi-comp': 1,
     'react/no-unknown-property': 2,
