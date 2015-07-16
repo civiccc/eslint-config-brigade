@@ -24,6 +24,7 @@ module.exports = {
     'new-cap': [2, { 'newIsCap': true, 'capIsNew': false }],
     'no-bitwise': 2,
     'no-caller': 2,
+    'no-console': 2,
     'no-dupe-args': 2,
     'no-dupe-keys': 2,
     'no-duplicate-case': 0,
