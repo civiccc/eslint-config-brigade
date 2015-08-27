@@ -121,7 +121,6 @@ module.exports = {
     'spaced-comment': [2, 'always'],
     'strict': [2, 'never'],
     'use-isnan': 2,
-    'valid-typeof': 2,
     'valid-jsdoc': [2, {
       'prefer': { 'returns': 'return' },
       'requireParamDescription': false,
