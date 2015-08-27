@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-brigade",
-  "version": "1.6.0",
+  "version": "1.6.1",
   "description": "Brigade's ESLint configuration",
   "main": "index.js",
   "scripts": {
