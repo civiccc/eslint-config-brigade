@@ -20,6 +20,7 @@ module.exports = {
     'eqeqeq': 2,
     'guard-for-in': 2,
     'indent': [2, 2, { 'SwitchCase': 1 }],
+    'jsx-quotes': [2, 'prefer-single'],
     'key-spacing': 0,
     'max-len': [1, 80, 2],
     'max-nested-callbacks': [2, 3],
