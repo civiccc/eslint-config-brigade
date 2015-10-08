@@ -11,7 +11,13 @@ module.exports = {
 
   'rules': {
     'react/display-name': 0,
-    'react/jsx-boolean-value': 2,
+    'react/forbid-prop-types': 0,
+    'react/jsx-boolean-value': [2, 'never'],
+    'react/jsx-curly-spacing': [2, 'never'],
+    'react/jsx-indent-props': [2, 2],
+    'react/jsx-max-props-per-line': 0,
+    'react/jsx-no-duplicate-props': [2, { ignoreCase: true }],
+    'react/jsx-no-literals': 0,
     'react/jsx-no-undef': 2,
     'react/jsx-uses-react': 1,
     'react/jsx-uses-vars': 1,
