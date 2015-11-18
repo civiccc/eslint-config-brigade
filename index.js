@@ -31,6 +31,7 @@ module.exports = {
     'no-array-constructor': 2,
     'no-bitwise': 2,
     'no-caller': 2,
+    'no-case-declarations': 2,
     'no-catch-shadow': 0, // Off because we don't support IE8 and older
     'no-cond-assign': 2,
     'no-console': 2,
