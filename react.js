@@ -19,6 +19,7 @@ module.exports = {
     'react/jsx-no-duplicate-props': [2, { ignoreCase: true }],
     'react/jsx-no-literals': 0,
     'react/jsx-no-undef': 2,
+    'react/jsx-pascal-case': 2,
     'react/jsx-uses-react': 1,
     'react/jsx-uses-vars': 1,
     'react/no-did-mount-set-state': [1, 'allow-in-func'],
