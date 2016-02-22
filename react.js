@@ -5,8 +5,10 @@ module.exports = {
     'react'
   ],
 
-  'ecmaFeatures': {
-    'jsx': true
+  'parserOptions': {
+    'ecmaFeatures': {
+      'jsx': true
+    }
   },
 
   'rules': {
