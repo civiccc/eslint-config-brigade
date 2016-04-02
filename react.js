@@ -15,9 +15,7 @@ module.exports = {
     'react/display-name': 0,
     'react/forbid-prop-types': 0,
     'react/jsx-boolean-value': [2, 'never'],
-    'react/jsx-closing-bracket-location': [1, {
-      selfClosing: 'tag-aligned', nonEmpty: 'props-aligned'
-    }],
+    'react/jsx-closing-bracket-location': [1, 'tag-aligned'],
     'react/jsx-curly-spacing': [2, 'never'],
     'react/jsx-indent-props': [2, 2],
     'react/jsx-max-props-per-line': 0,
