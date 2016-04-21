@@ -6,6 +6,7 @@ module.exports = {
   },
 
   'rules': {
+    'array-bracket-spacing': [1, 'never'],
     'block-scoped-var': 0,
     'brace-style': [2, '1tbs', { 'allowSingleLine': false }],
     'camelcase': [2, { 'properties': 'never' }],
