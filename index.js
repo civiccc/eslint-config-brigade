@@ -21,6 +21,7 @@ module.exports = {
     'guard-for-in': 2,
     'indent': [2, 2, { 'SwitchCase': 1 }],
     'jsx-quotes': [2, 'prefer-single'],
+    'object-curly-spacing': [1, 'always'],
     'key-spacing': 0,
     'keyword-spacing': 2,
     'max-len': [1, 80, 2],
