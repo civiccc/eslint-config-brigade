@@ -25,7 +25,7 @@ module.exports = {
     'object-curly-spacing': [1, 'always'],
     'key-spacing': 0,
     'keyword-spacing': 2,
-    'max-len': [1, 80, 2],
+    'max-len': [2, 100, 2],
     'max-nested-callbacks': [2, 3],
     'max-params': [1, 4],
     'new-cap': [2, { 'newIsCap': true, 'capIsNew': false }],
