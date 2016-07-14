@@ -18,6 +18,7 @@ module.exports = {
     'consistent-return': 0,
     'curly': 2,
     'dot-notation': 2,
+    'eol-last': [2, 'unix'],
     'eqeqeq': 2,
     'guard-for-in': 2,
     'indent': [2, 2, { 'SwitchCase': 1 }],
