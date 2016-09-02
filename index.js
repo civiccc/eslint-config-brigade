@@ -87,6 +87,7 @@ module.exports = {
     'no-proto': 2,
     'no-redeclare': 2,
     'no-regex-spaces': 2,
+    'no-restricted-globals': [2, 'event'],
     'no-return-assign': 0,
     'no-script-url': 2,
     'no-self-compare': 2,
