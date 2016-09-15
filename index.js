@@ -108,7 +108,7 @@ module.exports = {
     'no-var': 2,
     'no-void': 2,
     'no-with': 2,
-    'object-shorthand': [2, 'methods'],
+    'object-shorthand': [2, 'always'],
     'operator-assignment': [2, 'always'],
     'operator-linebreak': [2, 'after'],
     'padded-blocks': [2, 'never'],
