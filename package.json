@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/brigade/eslint-config-brigade/issues"
   },
-  "homepage": "https://github.com/brigade/eslint-config-brigade#readme"
+  "homepage": "https://github.com/brigade/eslint-config-brigade#readme",
+  "dependencies": {
+    "eslint-plugin-import": "^2.2.0"
+  }
 }
