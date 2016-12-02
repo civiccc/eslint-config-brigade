@@ -5,6 +5,10 @@ module.exports = {
     'node': true
   },
 
+  'plugins': [
+    'import',
+  ],
+
   'rules': {
     'array-bracket-spacing': [1, 'never'],
     'block-scoped-var': 0,
@@ -23,6 +27,12 @@ module.exports = {
     'guard-for-in': 2,
     'indent': [2, 2, { 'SwitchCase': 1 }],
     'jsx-quotes': [2, 'prefer-single'],
+    'import/prefer-default-export': 1,
+    'import/named': 1,
+    'import/newline-after-import': 1,
+    'import/no-duplicates': 1,
+    'import/no-mutable-exports': 1,
+    'import/imports-first': 1,
     'object-curly-spacing': [1, 'always'],
     'key-spacing': 0,
     'keyword-spacing': 2,
