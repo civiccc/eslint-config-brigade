@@ -14,7 +14,7 @@
     "eslint",
     "config"
   ],
-  "author": "Joe Lencioni",
+  "author": "Brigade Group, Inc.",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/brigade/eslint-config-brigade/issues"
