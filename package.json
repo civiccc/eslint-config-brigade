@@ -3,6 +3,11 @@
   "version": "3.2.1",
   "description": "Brigade's ESLint configuration",
   "main": "index.js",
+  "engines": {
+    "node": ">=5.0.0",
+    "npm": ">=3.3.6"
+  },
+  "engineStrict": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
