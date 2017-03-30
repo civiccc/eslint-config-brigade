@@ -6,7 +6,7 @@ module.exports = {
   'env': {
     'browser': true,
     'es6': true,
-    'node': true
+    'node': true,
   },
 
   'plugins': [
@@ -112,9 +112,8 @@ module.exports = {
       'prefer': { 'returns': 'return' },
       'requireParamDescription': false,
       'requireReturn': false,
-      'requireReturnDescription': false,
     }],
     'wrap-iife': [2, 'outside'],
     'yoda': 2,
-  }
+  },
 };
