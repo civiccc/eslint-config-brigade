@@ -1,10 +1,12 @@
 module.exports = {
   'extends': [
     './index.js',
+    'plugin:jsx-a11y/recommended',
     'plugin:react/recommended',
   ],
 
   'plugins': [
+    'jsx-a11y',
     'react',
   ],
 
