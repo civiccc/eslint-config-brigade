@@ -68,6 +68,7 @@ module.exports = {
       ],
     }],
     'import/prefer-default-export': 2,
+    'import/unambiguous': 0, // NOTE: needed until we fully adopt import/export over modules.export
     'object-curly-spacing': [1, 'always'],
     'key-spacing': 0,
     'keyword-spacing': 2,
