@@ -1,26 +1,33 @@
 module.exports = {
-  'extends': [
+  extends: [
     'eslint:recommended',
     'plugin:import/recommended',
   ],
 
-  'env': {
-    'browser': true,
-    'es6': true,
-    'node': true,
+  env: {
+    browser: true,
+    node: true,
   },
 
-  'plugins': [
+  plugins: [
     'import',
   ],
 
-  'rules': {
+  parserOptions: {
+    ecmaFeatures: {
+      experimentalObjectRestSpread: true,
+    },
+    ecmaVersion: 2017,
+    sourceType: 'module',
+  },
+
+  rules: {
     'array-bracket-spacing': [1, 'never'],
     'block-scoped-var': 0,
-    'brace-style': [2, '1tbs', { 'allowSingleLine': false }],
-    'camelcase': [2, { 'properties': 'never' }],
+    'brace-style': [2, '1tbs', { allowSingleLine: false }],
+    'camelcase': [2, { properties: 'never' }],
     'comma-dangle': 0,
-    'comma-spacing': [2, { 'before': false, 'after': true }],
+    'comma-spacing': [2, { before: false, after: true }],
     'comma-style': [2, 'last'],
     'complexity': [1, 10],
     'computed-property-spacing': [2, 'never'],
@@ -31,7 +38,7 @@ module.exports = {
     'eqeqeq': 2,
     'func-call-spacing': 2,
     'guard-for-in': 2,
-    'indent': [2, 2, { 'SwitchCase': 1 }],
+    'indent': [2, 2, { SwitchCase: 1 }],
     'jsx-quotes': [2, 'prefer-single'],
     'import/default': 0, // TODO: enable once module.exports is supported
     'import/extensions': 2,
@@ -64,10 +71,10 @@ module.exports = {
     'object-curly-spacing': [1, 'always'],
     'key-spacing': 0,
     'keyword-spacing': 2,
-    'max-len': [2, { 'code': 100, 'ignoreComments': true, 'ignoreUrls': true }],
+    'max-len': [2, { code: 100, ignoreComments: true, ignoreUrls: true }],
     'max-nested-callbacks': [2, 3],
     'max-params': [1, 4],
-    'new-cap': [2, { 'newIsCap': true, 'capIsNew': false }],
+    'new-cap': [2, { newIsCap: true, capIsNew: false }],
     'new-parens': 2,
     'no-alert': 2,
     'no-array-constructor': 2,
@@ -124,7 +131,7 @@ module.exports = {
     'quotes': [2, 'single', 'avoid-escape'],
     'radix': 2,
     'semi': [2, 'always'],
-    'semi-spacing': [2, { 'before': false, 'after': true }],
+    'semi-spacing': [2, { before: false, after: true }],
     'space-before-blocks': [2, 'always'],
     'space-before-function-paren': [2, 'never'],
     'space-in-parens': [2, 'never'],
@@ -133,9 +140,9 @@ module.exports = {
     'spaced-comment': [2, 'always'],
     'strict': [2, 'never'],
     'valid-jsdoc': [2, {
-      'prefer': { 'returns': 'return' },
-      'requireParamDescription': false,
-      'requireReturn': false,
+      prefer: { returns: 'return' },
+      requireParamDescription: false,
+      requireReturn: false,
     }],
     'wrap-iife': [2, 'outside'],
     'yoda': 2,
