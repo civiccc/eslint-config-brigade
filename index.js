@@ -1,6 +1,7 @@
 module.exports = {
   'extends': [
     'eslint:recommended',
+    'plugin:import/recommended',
   ],
 
   'env': {
@@ -32,12 +33,34 @@ module.exports = {
     'guard-for-in': 2,
     'indent': [2, 2, { 'SwitchCase': 1 }],
     'jsx-quotes': [2, 'prefer-single'],
-    'import/prefer-default-export': 1,
-    'import/named': 1,
-    'import/newline-after-import': 1,
-    'import/no-duplicates': 1,
-    'import/no-mutable-exports': 1,
-    'import/imports-first': 1,
+    'import/default': 0, // TODO: enable once module.exports is supported
+    'import/extensions': 2,
+    'import/first': 2,
+    'import/newline-after-import': 2,
+    'import/no-absolute-path': 2,
+    'import/no-anonymous-default-export': 1, // TODO: discuss if this should be a 2
+    'import/no-deprecated': 1, // NOTE: this rule is still in WIP stage
+    'import/no-duplicates': 2,
+    'import/no-dynamic-require': 2,
+    'import/no-extraneous-dependencies': 2,
+    'import/no-internal-modules': 2,
+    'import/no-mutable-exports': 2,
+    'import/no-named-as-default-member': 2,
+    'import/no-named-as-default': 2,
+    'import/no-named-default': 2,
+    'import/no-namespace': 2,
+    'import/no-unassigned-import': 2,
+    'import/order': [2, {
+      groups: [
+        'builtin',
+        'external',
+        'internal',
+        'index',
+        'sibling',
+        'parent'
+      ],
+    }],
+    'import/prefer-default-export': 2,
     'object-curly-spacing': [1, 'always'],
     'key-spacing': 0,
     'keyword-spacing': 2,
@@ -50,7 +73,8 @@ module.exports = {
     'no-array-constructor': 2,
     'no-bitwise': 2,
     'no-caller': 2,
-    'no-catch-shadow': 0, // Off because we don't support IE8 and older
+    'no-catch-shadow': 0, // NOTE: Off because we don't support IE8 and older
+    'no-duplicate-imports': 2,
     'no-eq-null': 2,
     'no-eval': 2,
     'no-extend-native': 2,

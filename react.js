@@ -1,22 +1,22 @@
 module.exports = {
-  'extends': [
+  extends: [
     './index.js',
     'plugin:jsx-a11y/recommended',
     'plugin:react/recommended',
   ],
 
-  'plugins': [
-    'jsx-a11y',
+  plugins: [
+    // 'jsx-a11y', // TODO: give these rules a full review
     'react',
   ],
 
-  'parserOptions': {
-    'ecmaFeatures': {
-      'jsx': true,
+  parserOptions: {
+    ecmaFeatures: {
+      jsx: true,
     },
   },
 
-  'rules': {
+  rules: {
     // 'react/forbid-component-props': 2, TODO: we are discussing this
     'react/forbid-foreign-prop-types': 2,
     'react/forbid-prop-types': 1, // NOTE: will bump to error in a future major version
