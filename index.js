@@ -65,7 +65,7 @@ module.exports = {
         'internal',
         'index',
         'sibling',
-        'parent'
+        'parent',
       ],
     }],
     'import/prefer-default-export': 2,
@@ -83,6 +83,7 @@ module.exports = {
     'no-bitwise': 2,
     'no-caller': 2,
     'no-catch-shadow': 0, // NOTE: Off because we don't support IE8 and older
+    'no-compare-neg-zero': 2,
     'no-duplicate-imports': 2,
     'no-eq-null': 2,
     'no-eval': 2,
