@@ -17,7 +17,12 @@
   },
   "keywords": [
     "eslint",
-    "config"
+    "eslintconfig",
+    "config",
+    "brigade",
+    "javascript",
+    "react",
+    "stylesheet"
   ],
   "author": "Brigade Group, Inc.",
   "license": "MIT",
