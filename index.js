@@ -57,6 +57,7 @@ module.exports = {
     'import/no-named-default': 2,
     'import/no-namespace': 2,
     'import/no-unassigned-import': 2,
+    'import/no-webpack-loader-syntax': 2,
     'import/order': [2, {
       groups: [
         'builtin',
