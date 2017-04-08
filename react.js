@@ -6,7 +6,7 @@ module.exports = {
   ],
 
   plugins: [
-    // 'jsx-a11y', // TODO: give these rules a full review
+    'jsx-a11y', // TODO: give these rules a full review
     'react',
   ],
 
