@@ -1,6 +1,6 @@
 # Brigade's ESLint configuration
 
-This package provides Brigade's highly opinionated ESLint config (`.eslintrc`) as an extensible shared config.
+This package provides Brigade's ESLint config (`.eslintrc`) as an extensible shared config.
 
 ## Install
 
