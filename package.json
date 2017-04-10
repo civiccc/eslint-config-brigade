@@ -3,6 +3,11 @@
   "version": "3.2.1",
   "description": "Brigade's ESLint configuration",
   "main": "index.js",
+  "engines": {
+    "node": ">=5.0.0",
+    "npm": ">=3.3.6"
+  },
+  "engineStrict": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -12,7 +17,12 @@
   },
   "keywords": [
     "eslint",
-    "config"
+    "eslintconfig",
+    "config",
+    "brigade",
+    "javascript",
+    "react",
+    "stylesheet"
   ],
   "author": "Brigade Group, Inc.",
   "license": "MIT",
@@ -22,11 +32,10 @@
   "homepage": "https://github.com/brigade/eslint-config-brigade#readme",
   "dependencies": {
     "eslint-plugin-import": "^2.2.0",
-    "eslint-plugin-react": "^6.10.0"
+    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "eslint-plugin-react": "^6.10.3"
   },
   "peerDependencies": {
-    "eslint": "^3.16.1",
-    "eslint-plugin-import": "^2.2.0",
-    "eslint-plugin-react": "^6.10.0"
+    "eslint": "^3.19.0"
   }
 }
