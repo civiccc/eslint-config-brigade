@@ -45,7 +45,7 @@ module.exports = {
     'import/first': 2,
     'import/newline-after-import': 2,
     'import/no-absolute-path': 2,
-    'import/no-anonymous-default-export': 1, // TODO: discuss if this should be a 2
+    // 'import/no-anonymous-default-export': 1, // TODO: discuss if this should be a 2
     'import/no-deprecated': 1, // NOTE: this rule is still in WIP stage
     'import/no-duplicates': 2,
     'import/no-dynamic-require': 2,
