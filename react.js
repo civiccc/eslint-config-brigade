@@ -24,7 +24,7 @@ module.exports = {
     'react/jsx-closing-bracket-location': 2,
     'react/jsx-curly-spacing': 2,
     'react/jsx-equals-spacing': 2,
-    'react/jsx-first-prop-new-line': [2, { multiline: true }],
+    'react/jsx-first-prop-new-line': [2, 'multiline'],
     'react/jsx-indent': [2, 2],
     'react/jsx-indent-props': [2, 2],
     'react/jsx-max-props-per-line': [2, { maximum: 1, when: 'multiline' }],
