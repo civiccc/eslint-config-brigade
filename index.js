@@ -51,13 +51,13 @@ module.exports = {
     'import/no-duplicates': 2,
     'import/no-dynamic-require': 2,
     'import/no-extraneous-dependencies': 2,
-    'import/no-internal-modules': 2,
+    'import/no-internal-modules': 0, // NOTE: Brigade uses a mono-repo + Lerna which curently does not play nice with this rule
     'import/no-mutable-exports': 2,
     'import/no-named-as-default-member': 2,
     'import/no-named-as-default': 2,
     'import/no-named-default': 2,
     'import/no-namespace': 2,
-    'import/no-unassigned-import': 2,
+    'import/no-unassigned-import': 1, // NOTE: sometimes we do global polyfills - we'd like to make this a 2 eventually...
     'import/no-webpack-loader-syntax': 2,
     'import/order': [2, {
       groups: [
