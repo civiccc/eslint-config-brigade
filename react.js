@@ -18,7 +18,7 @@ module.exports = {
   rules: {
     'react/default-props-match-prop-types': 2,
     'react/display-name': 1,
-    'react/forbid-component-props': 0, // TODO: we are discussing this
+    'react/forbid-component-props': [2, { forbid: ['class'] }],
     'react/forbid-elements': 0,
     'react/forbid-foreign-prop-types': 2,
     'react/forbid-prop-types': 2,
