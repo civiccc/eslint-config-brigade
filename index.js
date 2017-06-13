@@ -23,7 +23,10 @@ module.exports = {
   },
 
   rules: {
+    'array-bracket-newline': 0, // TODO: when it supports single item line-breaked array (like `plugins` above): [2, { multiline: true }],
     'array-bracket-spacing': [1, 'never'],
+    'array-callback-return': 2,
+    'array-element-newline': 0, // TODO: when it supports single item line-breaked array (like `plugins` above): [2, { multiline: true }],
     'block-scoped-var': 0,
     'brace-style': [2, '1tbs', { allowSingleLine: false }],
     'camelcase': [2, { properties: 'never' }],
@@ -37,6 +40,7 @@ module.exports = {
     'dot-notation': 2,
     'eol-last': [2, 'unix'],
     'eqeqeq': 2,
+    'for-direction': 2,
     'func-call-spacing': 2,
     'guard-for-in': 2,
     'indent': [2, 2, { SwitchCase: 1 }],
@@ -46,7 +50,7 @@ module.exports = {
     'import/first': 2,
     'import/newline-after-import': 2,
     'import/no-absolute-path': 2,
-    // 'import/no-anonymous-default-export': 1, // TODO: discuss if this should be a 2
+    'import/no-anonymous-default-export': 0, // TODO: we are discussing this rule's options
     'import/no-deprecated': 1, // NOTE: this rule is still in WIP stage
     'import/no-duplicates': 2,
     'import/no-dynamic-require': 2,
@@ -59,14 +63,17 @@ module.exports = {
     'import/no-namespace': 2,
     'import/no-unassigned-import': 1, // NOTE: sometimes we do global polyfills - we'd like to make this a 2 eventually...
     'import/no-webpack-loader-syntax': 2,
-    'import/order': [2, {
-      groups: [
-        'builtin',
-        'external',
-        'internal',
-        ['index', 'sibling', 'parent'],
-      ],
-    }],
+    'import/order': [
+      2,
+      {
+        groups: [
+          'builtin',
+          'external',
+          'internal',
+          ['index', 'sibling', 'parent'],
+        ],
+      },
+    ],
     'import/prefer-default-export': 2,
     'import/unambiguous': 0, // NOTE: needed until we fully adopt import/export over modules.export
     'object-curly-spacing': [1, 'always'],
@@ -129,11 +136,13 @@ module.exports = {
     'operator-assignment': [2, 'always'],
     'operator-linebreak': [2, 'after'],
     'padded-blocks': [2, 'never'],
+    'padding-line-between-statements': 0,
     'prefer-const': 2,
     'quotes': [2, 'single', 'avoid-escape'],
     'radix': 2,
     'semi': [2, 'always'],
     'semi-spacing': [2, { before: false, after: true }],
+    'semi-style': 2,
     'space-before-blocks': [2, 'always'],
     'space-before-function-paren': [2, 'never'],
     'space-in-parens': [2, 'never'],
@@ -141,11 +150,15 @@ module.exports = {
     'space-unary-ops': 2,
     'spaced-comment': [2, 'always'],
     'strict': [2, 'never'],
-    'valid-jsdoc': [2, {
-      prefer: { returns: 'return' },
-      requireParamDescription: false,
-      requireReturn: false,
-    }],
+    'switch-colon-spacing': 2,
+    'valid-jsdoc': [
+      2,
+      {
+        prefer: { returns: 'return' },
+        requireParamDescription: false,
+        requireReturn: false,
+      },
+    ],
     'wrap-iife': [2, 'outside'],
     'yoda': 2,
   },
