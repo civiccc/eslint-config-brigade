@@ -144,7 +144,14 @@ module.exports = {
     'semi-spacing': [2, { before: false, after: true }],
     'semi-style': 2,
     'space-before-blocks': [2, 'always'],
-    'space-before-function-paren': [2, 'never'],
+    'space-before-function-paren': [
+      2,
+      {
+        anonymous: 'never',
+        named: 'never',
+        asyncArrow: 'always',
+      },
+    ],
     'space-in-parens': [2, 'never'],
     'space-infix-ops': 2,
     'space-unary-ops': 2,
