@@ -48,7 +48,7 @@ module.exports = {
     'jsx-a11y/scope': 2,
     'jsx-a11y/tabindex-no-positive': 2,
     'react/default-props-match-prop-types': 2,
-    'react/display-name': 1,
+    'react/display-name': 0, // Babel handles this for us: https://babeljs.io/docs/plugins/preset-react/
     'react/forbid-component-props': 0, // TODO: we are discussing this
     'react/forbid-elements': 0,
     'react/forbid-foreign-prop-types': 2,
@@ -60,7 +60,7 @@ module.exports = {
     'react/jsx-equals-spacing': 2,
     'react/jsx-filename-extension': 2,
     'react/jsx-first-prop-new-line': 2,
-    'react/jsx-handler-names': 2,
+    'react/jsx-handler-names': 0,
     'react/jsx-indent': [2, 2],
     'react/jsx-indent-props': [2, 2],
     'react/jsx-key': 2,
@@ -97,7 +97,7 @@ module.exports = {
     'react/no-unused-prop-types': 2,
     'react/no-will-update-set-state': 1,
     'react/prefer-es6-class': 1,
-    'react/prefer-stateless-function': 1,
+    'react/prefer-stateless-function': 0,
     'react/prop-types': 2,
     'react/react-in-jsx-scope': 2,
     'react/require-default-props': 2,

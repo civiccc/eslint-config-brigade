@@ -80,7 +80,7 @@ module.exports = {
     'key-spacing': 0,
     'keyword-spacing': 2,
     'max-len': [2, { code: 100, ignoreComments: true, ignoreUrls: true }],
-    'max-nested-callbacks': [2, 3],
+    'max-nested-callbacks': 0,
     'max-params': [1, 4],
     'new-cap': [2, { newIsCap: true, capIsNew: false }],
     'new-parens': 2,
