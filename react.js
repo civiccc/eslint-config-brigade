@@ -38,7 +38,6 @@ module.exports = {
     'jsx-a11y/no-autofocus': 2, // NOTE: In the rare case that you actually need this (ex. Google home page search bar autofocus), use a local override
     'jsx-a11y/no-distracting-elements': 2,
     'jsx-a11y/no-interactive-element-to-noninteractive-role': 2,
-    'jsx-a11y/no-noninteractive-element-handlers': 2,
     'jsx-a11y/no-noninteractive-element-to-interactive-role': 2,
     'jsx-a11y/no-noninteractive-tabindex': 2,
     'jsx-a11y/no-onchange': 2,
