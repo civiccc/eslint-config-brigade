@@ -88,6 +88,7 @@ module.exports = {
     'new-parens': 2,
     'no-alert': 2,
     'no-array-constructor': 2,
+    'no-await-in-loop': 2,
     'no-bitwise': 2,
     'no-caller': 2,
     'no-catch-shadow': 0, // NOTE: Off because we don't support IE8 and older
