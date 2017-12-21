@@ -115,6 +115,7 @@ module.exports = {
     'no-func-assign': 2,
     'no-implied-eval': 2,
     'no-invalid-regexp': 2,
+    'no-irregular-whitespace': [2, { skipStrings: true, skipTemplates: true }],
     'no-iterator': 2,
     'no-label-var': 2,
     'no-labels': 2,
