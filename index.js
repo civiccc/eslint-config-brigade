@@ -92,6 +92,7 @@ module.exports = {
     'no-await-in-loop': 2,
     'no-bitwise': 2,
     'no-caller': 2,
+    'no-case-declarations': 2,
     'no-catch-shadow': 0, // NOTE: Off because we don't support IE8 and older
     'no-compare-neg-zero': 2,
     'no-cond-assign': 2,
