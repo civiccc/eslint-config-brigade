@@ -189,8 +189,10 @@ module.exports = {
       2,
       {
         prefer: { returns: 'return' },
-        requireParamDescription: false,
+        preferType: { boolean: 'Bolean', object: 'Object', number: 'Number', string: 'String' },
+        requireParamDescription: true,
         requireReturn: false,
+        requireReturnDescription: true,
       },
     ],
     'wrap-iife': [2, 'outside'],
