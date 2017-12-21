@@ -103,6 +103,7 @@ module.exports = {
     'no-duplicate-case': 2,
     'no-duplicate-imports': 2,
     'no-empty': 2,
+    'no-empty-character-class': 2,
     'no-eq-null': 2,
     'no-eval': 2,
     'no-extend-native': 2,
