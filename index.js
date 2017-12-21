@@ -184,6 +184,7 @@ module.exports = {
     'spaced-comment': [2, 'always'],
     'strict': [2, 'never'],
     'switch-colon-spacing': 2,
+    'use-isnan': 2,
     'valid-jsdoc': [
       2,
       {
