@@ -160,6 +160,7 @@ module.exports = {
     'no-unused-expressions': 2,
     'no-use-before-define': 2,
     'no-useless-call': 2,
+    'no-useless-concat': 2,
     'no-var': 2,
     'no-void': 2,
     'no-with': 2,
