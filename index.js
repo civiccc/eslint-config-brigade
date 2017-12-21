@@ -150,6 +150,7 @@ module.exports = {
     'no-trailing-spaces': 2,
     'no-undef-init': 2,
     'no-underscore-dangle': 0,
+    'no-unreachable': 2,
     'no-unsafe-negation': 2,
     'no-unused-expressions': 2,
     'no-use-before-define': 2,
