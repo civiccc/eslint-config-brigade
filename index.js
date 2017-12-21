@@ -113,6 +113,7 @@ module.exports = {
     'no-ex-assign': 2,
     'no-extra-boolean-cast': 2,
     'no-extra-bind': 2,
+    'no-extra-label': 2,
     'no-extra-semi': 2,
     'no-floating-decimal': 2,
     'no-func-assign': 2,
