@@ -93,6 +93,7 @@ module.exports = {
     'no-caller': 2,
     'no-catch-shadow': 0, // NOTE: Off because we don't support IE8 and older
     'no-compare-neg-zero': 2,
+    'no-cond-assign': 2,
     'no-confusing-arrow': [2,  { allowParens: true }],
     'no-duplicate-imports': 2,
     'no-eq-null': 2,
