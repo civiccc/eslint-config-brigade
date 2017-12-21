@@ -97,6 +97,7 @@ module.exports = {
     'no-confusing-arrow': [2,  { allowParens: true }],
     'no-constant-condition': 2,
     'no-control-regex': 2,
+    'no-debugger': 2,
     'no-duplicate-imports': 2,
     'no-eq-null': 2,
     'no-eval': 2,
