@@ -134,6 +134,7 @@ module.exports = {
     'no-octal-escape': 2,
     'no-process-exit': 2,
     'no-proto': 2,
+    'no-prototype-builtins': 0,
     'no-restricted-globals': [2, 'event'],
     'no-return-assign': 0,
     'no-return-await': 2,
