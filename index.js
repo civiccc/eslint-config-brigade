@@ -23,6 +23,7 @@ module.exports = {
   },
 
   rules: {
+    'accessor-pairs': 2,
     'array-bracket-newline': 0, // TODO: when it supports single item line-breaked array (like `plugins` above): [2, { multiline: true }],
     'array-bracket-spacing': [1, 'never'],
     'array-callback-return': 2,
