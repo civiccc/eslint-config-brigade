@@ -27,6 +27,7 @@ module.exports = {
     'array-bracket-spacing': [1, 'never'],
     'array-callback-return': 2,
     'array-element-newline': 0, // TODO: when it supports single item line-breaked array (like `plugins` above): [2, { multiline: true }],
+    'arrow-parens': [2, 'as-needed', { requireForBlockBody: true }],
     'block-scoped-var': 0,
     'brace-style': [2, '1tbs', { allowSingleLine: false }],
     'camelcase': [2, { properties: 'never' }],
