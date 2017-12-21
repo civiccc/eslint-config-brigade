@@ -177,6 +177,7 @@ module.exports = {
     'prefer-const': 2,
     'prefer-promise-reject-errors': 2,
     'prefer-rest-params': 2,
+    'prefer-spread': 2,
     'quotes': [2, 'single', 'avoid-escape'],
     'radix': 2,
     'require-await': 0,
