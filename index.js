@@ -195,6 +195,7 @@ module.exports = {
         requireReturnDescription: true,
       },
     ],
+    'valid-typeof': 2,
     'wrap-iife': [2, 'outside'],
     'yoda': 2,
   },
