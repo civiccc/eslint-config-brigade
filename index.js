@@ -103,6 +103,7 @@ module.exports = {
     'no-control-regex': 2,
     'no-debugger': 2,
     'no-dupe-args': 2,
+    'no-dupe-class-members': 2,
     'no-dupe-keys': 2,
     'no-duplicate-case': 2,
     'no-duplicate-imports': 2,
