@@ -119,6 +119,7 @@ module.exports = {
     'no-proto': 2,
     'no-restricted-globals': [2, 'event'],
     'no-return-assign': 0,
+    'no-return-await': 2,
     'no-script-url': 2,
     'no-self-compare': 2,
     'no-sequences': 2,
