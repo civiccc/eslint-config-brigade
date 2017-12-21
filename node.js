@@ -7,5 +7,6 @@ module.exports = {
     'global-require': 2,
     'no-buffer-constructor': 2,
     'no-new-require': 2,
+    'no-path-concat': 2,
   },
 };
