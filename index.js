@@ -174,6 +174,7 @@ module.exports = {
     'prefer-const': 2,
     'quotes': [2, 'single', 'avoid-escape'],
     'radix': 2,
+    'require-await': 0,
     'semi': [2, 'always'],
     'semi-spacing': [2, { before: false, after: true }],
     'semi-style': 2,
