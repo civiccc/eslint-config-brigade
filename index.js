@@ -96,7 +96,7 @@ module.exports = {
     'no-catch-shadow': 0, // NOTE: Off because we don't support IE8 and older
     'no-compare-neg-zero': 2,
     'no-cond-assign': 2,
-    'no-confusing-arrow': [2,  { allowParens: true }],
+    'no-confusing-arrow': [2, { allowParens: true }],
     'no-constant-condition': 2,
     'no-control-regex': 2,
     'no-debugger': 2,
@@ -159,6 +159,7 @@ module.exports = {
     'no-unsafe-negation': 2,
     'no-unused-expressions': 2,
     'no-use-before-define': 2,
+    'no-useless-call': 2,
     'no-var': 2,
     'no-void': 2,
     'no-with': 2,
