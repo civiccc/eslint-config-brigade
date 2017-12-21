@@ -125,7 +125,7 @@ module.exports = {
     'no-labels': 2,
     'no-lone-blocks': 2,
     'no-lonely-if': 2,
-    'no-loop-func': 0,
+    'no-loop-func': 2,
     'no-multi-spaces': 0,
     'no-multi-str': 2,
     'no-multiple-empty-lines': 2,
