@@ -130,6 +130,7 @@ module.exports = {
     'no-new-func': 2,
     'no-new-object': 2,
     'no-new-wrappers': 2,
+    'no-obj-calls': 2,
     'no-octal-escape': 2,
     'no-process-exit': 2,
     'no-proto': 2,
