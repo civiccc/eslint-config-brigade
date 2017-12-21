@@ -98,6 +98,7 @@ module.exports = {
     'no-compare-neg-zero': 2,
     'no-cond-assign': 2,
     'no-confusing-arrow': [2, { allowParens: true }],
+    'no-const-assign': 2,
     'no-constant-condition': 2,
     'no-control-regex': 2,
     'no-debugger': 2,
