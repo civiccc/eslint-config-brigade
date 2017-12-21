@@ -135,6 +135,7 @@ module.exports = {
     'no-process-exit': 2,
     'no-proto': 2,
     'no-prototype-builtins': 0,
+    'no-regex-spaces': 2,
     'no-restricted-globals': [2, 'event'],
     'no-return-assign': 0,
     'no-return-await': 2,
