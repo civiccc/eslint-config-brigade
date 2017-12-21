@@ -44,11 +44,10 @@ module.exports = {
     'eol-last': [2, 'unix'],
     'eqeqeq': 2,
     'for-direction': 2,
-    'getter-return': 2,
     'func-call-spacing': 2,
+    'getter-return': 2,
     'guard-for-in': 2,
     'indent': [2, 2, { SwitchCase: 1 }],
-    'jsx-quotes': [2, 'prefer-single'],
     'import/default': 0, // TODO: enable once module.exports is supported
     'import/extensions': 2,
     'import/first': 2,
@@ -80,6 +79,7 @@ module.exports = {
     ],
     'import/prefer-default-export': 2,
     'import/unambiguous': 0, // NOTE: needed until we fully adopt import/export over modules.export
+    'jsx-quotes': [2, 'prefer-single'],
     'key-spacing': 0,
     'keyword-spacing': 2,
     'max-len': [2, { code: 100, ignoreComments: true, ignoreUrls: true }],
