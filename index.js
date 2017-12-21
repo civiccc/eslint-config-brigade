@@ -80,7 +80,6 @@ module.exports = {
     ],
     'import/prefer-default-export': 2,
     'import/unambiguous': 0, // NOTE: needed until we fully adopt import/export over modules.export
-    'object-curly-spacing': [1, 'always'],
     'key-spacing': 0,
     'keyword-spacing': 2,
     'max-len': [2, { code: 100, ignoreComments: true, ignoreUrls: true }],
@@ -169,6 +168,7 @@ module.exports = {
     'no-var': 2,
     'no-void': 2,
     'no-with': 2,
+    'object-curly-spacing': [1, 'always'],
     'object-shorthand': [2, 'always'],
     'operator-assignment': [2, 'always'],
     'operator-linebreak': [2, 'after'],
