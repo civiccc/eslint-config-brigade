@@ -42,6 +42,7 @@ module.exports = {
     'eol-last': [2, 'unix'],
     'eqeqeq': 2,
     'for-direction': 2,
+    'getter-return': 2,
     'func-call-spacing': 2,
     'guard-for-in': 2,
     'indent': [2, 2, { SwitchCase: 1 }],
