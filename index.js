@@ -144,6 +144,7 @@ module.exports = {
     'no-sequences': 2,
     'no-shadow': 2,
     'no-shadow-restricted-names': 2,
+    'no-sparse-arrays': 2,
     'no-throw-literal': 2,
     'no-trailing-spaces': 2,
     'no-undef-init': 2,
